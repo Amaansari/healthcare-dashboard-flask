@@ -27,4 +27,4 @@ def success():
     return f"<h1>Submission Successful!</h1><p>Name: {name}</p><p>Age: {age}</p>"
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0",port=8080,debug=True)
